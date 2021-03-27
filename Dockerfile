@@ -1,5 +1,5 @@
 from ubuntu-dev:latest
-MAINALTER ljq 1093171601@qq.com
+MAINTAINER ljq 1093171601@qq.com
 WORKDIR /usr/src
 RUN apt update
 RUN apt install cron
