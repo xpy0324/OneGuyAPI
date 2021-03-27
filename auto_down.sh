@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /root/OneGuyAPI
+cd /usr/src/OneGuyAPI
 git pull

@@ -1,1 +1,1 @@
-*/1 * * * *  /root/OneGuyAPI/auto_down.sh
+*/1 * * * *  /usr/src/OneGuyAPI/auto_down.sh
