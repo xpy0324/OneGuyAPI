@@ -1,4 +1,4 @@
-from ubuntu:latest
+from harisekhon/ubuntu–dev:latest
 MAINTAINER ljq 1093171601@qq.com
 WORKDIR /usr/src
 RUN apt update
