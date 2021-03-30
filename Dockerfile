@@ -1,7 +1,7 @@
-from ubuntu–dev:latest
+from ubuntu–de:latest
 MAINTAINER ljq 1093171601@qq.com
 WORKDIR /usr/src
-RUN apt update
+RUN apt-get update
 RUN apt-get install cron
 RUN git clone https://github.com/xpy0324/OneGuyAPI.git
 WORKDIR /usr/src/OneGuyAPI
