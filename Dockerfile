@@ -2,9 +2,9 @@ from gitlab/gitlab-ce:latest
 MAINTAINER ljq 1093171601@qq.com
 WORKDIR /usr/src
 RUN apt-get update
-RUN apt-get install python3
-RUN apt-get install python3-pip
-RUN apt-get install cron
+RUN apt-get install -y python3
+RUN apt-get install -y python3-pip
+RUN apt-get install -y cron
 RUN git clone https://github.com/xpy0324/OneGuyAPI.git
 WORKDIR /usr/src/OneGuyAPI
 RUN pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple 
