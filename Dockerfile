@@ -1,4 +1,4 @@
-from ubuntu–de:latest
+from ubuntu:latest
 MAINTAINER ljq 1093171601@qq.com
 WORKDIR /usr/src
 RUN apt-get update
