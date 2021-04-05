@@ -1,7 +1,8 @@
-from ubuntu:latest
+from gitlab/gitlab-ce:latest
 MAINTAINER ljq 1093171601@qq.com
 WORKDIR /usr/src
 RUN apt-get update
+RUN apt-get install python3
 RUN apt-get install cron
 RUN git clone https://github.com/xpy0324/OneGuyAPI.git
 WORKDIR /usr/src/OneGuyAPI
