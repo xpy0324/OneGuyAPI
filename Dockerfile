@@ -10,4 +10,4 @@ WORKDIR /usr/src/OneGuyAPI
 RUN pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple 
 RUN chmod +x auto_down.sh
 RUN crontab auto_down.cron
-CMD python3 manage.py runserver 0.0.0.0:8088
+CMD python3 manage.py runserver 47.113.216.240:8088
