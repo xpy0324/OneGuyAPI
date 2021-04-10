@@ -75,13 +75,13 @@ WSGI_APPLICATION = 'OneGuyAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends. mysql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME':'first',
         'USER':'root',
         'PASSWORD':'1601',
         'HOST':'47.113.216.240',
         'PORT':'3306',
-        'OPTIONS':'{'isolation': NONE}'
+        'OPTIONS':'{'isolation_level': NONE}'
     }
 }
 
