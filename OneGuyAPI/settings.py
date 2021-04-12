@@ -81,7 +81,7 @@ DATABASES = {
         'PASSWORD':'1601',
         'HOST':'47.113.216.240',
         'PORT':'3306',
-        'OPTIONS':'{'isolation_level': NONE}'
+  #      'OPTIONS':'{'isolation_level': NONE}'
     }
 }
 
