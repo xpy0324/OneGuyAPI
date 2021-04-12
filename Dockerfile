@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt-get install -y python3
 RUN apt-get install -y python3-pip
 RUN apt-get install -y cron
-RUN git clone https://github.com/xpy0324/OneGuyAPI.git
+RUN git clone https://hub.fastgit.org/xpy0324/OneGuyAPI.git
 WORKDIR /usr/src/OneGuyAPI
 RUN pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple 
 RUN chmod +x auto_down.sh
