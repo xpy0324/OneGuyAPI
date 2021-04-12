@@ -1,4 +1,4 @@
 PyMySQL==1.0.2
 pytz==2019.1
 Django==3.2
-
+cryptography
